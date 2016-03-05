@@ -1,12 +1,13 @@
 'use strict';
-const dotenv = require('dotenv');
-const fs = require('fs');
+const fs = require('fs-sync');
 
-if (fs.existsSync('.env') === false) {
-  fs.createReadStream('.env.example')
-    .pipe(fs.createWriteStream('.env'));
+if (fs.exists('.env') === false) {
+  /* eslint no-console: false */
+  console.log('> cp .env.example .env');
+  fs.copy('.env.example', '.env');
 }
 
+const dotenv = require('dotenv');
 dotenv.config();
 
 module.exports = {
