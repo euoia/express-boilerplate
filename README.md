@@ -14,7 +14,10 @@ It includes:
 
 ## Configuration
 
-Use .env and config.js.
+The first time the application is started .env.example is copied to .env.
+
+Modify .env to change configuration, modify config.js to add
+configuration items.
 
 ## Running
 
