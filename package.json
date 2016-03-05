@@ -1,0 +1,22 @@
+{
+  "name": "mw-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "watch": "nodemon app.js"
+  },
+  "author": "James Pickard <james.pickard@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "eslint": "^2.3.0",
+    "nodemon": "^1.9.1",
+    "winston": "^2.2.0"
+  }
+}
