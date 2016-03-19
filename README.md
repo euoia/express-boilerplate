@@ -11,7 +11,7 @@ It includes:
 * [tern](http://ternjs.net/) for code completion.
 * [nodemon](https://www.npmjs.com/package/nodemon) to restart when code changes.
 * [dotenv](https://www.npmjs.com/package/dotenv) for configuration.
-* [.editorconfig](http://editorconfig.org/)
+* [.editorconfig](http://editorconfig.org/) universal editor configuration.
 
 ## Configuration
 
